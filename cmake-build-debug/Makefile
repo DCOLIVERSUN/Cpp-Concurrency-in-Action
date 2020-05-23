@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named prac_2_7
+
+# Build rule for target.
+prac_2_7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac_2_7
+.PHONY : prac_2_7
+
+# fast build rule for target.
+prac_2_7/fast:
+	$(MAKE) -f CMakeFiles/prac_2_7.dir/build.make CMakeFiles/prac_2_7.dir/build
+.PHONY : prac_2_7/fast
+
+#=============================================================================
 # Target rules for targets named prac_2_6
 
 # Build rule for target.
@@ -390,6 +403,33 @@ prac_2_6.cpp.s:
 	$(MAKE) -f CMakeFiles/prac_2_6.dir/build.make CMakeFiles/prac_2_6.dir/prac_2_6.cpp.s
 .PHONY : prac_2_6.cpp.s
 
+prac_2_7.o: prac_2_7.cpp.o
+
+.PHONY : prac_2_7.o
+
+# target to build an object file
+prac_2_7.cpp.o:
+	$(MAKE) -f CMakeFiles/prac_2_7.dir/build.make CMakeFiles/prac_2_7.dir/prac_2_7.cpp.o
+.PHONY : prac_2_7.cpp.o
+
+prac_2_7.i: prac_2_7.cpp.i
+
+.PHONY : prac_2_7.i
+
+# target to preprocess a source file
+prac_2_7.cpp.i:
+	$(MAKE) -f CMakeFiles/prac_2_7.dir/build.make CMakeFiles/prac_2_7.dir/prac_2_7.cpp.i
+.PHONY : prac_2_7.cpp.i
+
+prac_2_7.s: prac_2_7.cpp.s
+
+.PHONY : prac_2_7.s
+
+# target to generate assembly for a file
+prac_2_7.cpp.s:
+	$(MAKE) -f CMakeFiles/prac_2_7.dir/build.make CMakeFiles/prac_2_7.dir/prac_2_7.cpp.s
+.PHONY : prac_2_7.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -397,6 +437,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... prac_2_7"
 	@echo "... prac_2_6"
 	@echo "... prac_2_5"
 	@echo "... prac_2_3"
@@ -426,6 +467,9 @@ help:
 	@echo "... prac_2_6.o"
 	@echo "... prac_2_6.i"
 	@echo "... prac_2_6.s"
+	@echo "... prac_2_7.o"
+	@echo "... prac_2_7.i"
+	@echo "... prac_2_7.s"
 .PHONY : help
 
 
