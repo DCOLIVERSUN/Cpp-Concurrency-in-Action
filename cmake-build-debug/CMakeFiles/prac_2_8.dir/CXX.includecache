@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oliver_sun/Cpp-Concurrency-in-Action/prac_2_8.cpp
+thread
+-
+numeric
+-
+algorithm
+-
+functional
+-
+vector
+-
+iostream
+-
+ctime
+-
+
