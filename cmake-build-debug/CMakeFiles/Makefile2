@@ -53,15 +53,18 @@ CMAKE_BINARY_DIR = /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/prac_3_3.dir/all
 all: CMakeFiles/prac_2_8.dir/all
+all: CMakeFiles/prac_3_1.dir/all
 all: CMakeFiles/prac_2_7.dir/all
+all: CMakeFiles/prac_2_4.dir/all
+all: CMakeFiles/prac_3_2.dir/all
 all: CMakeFiles/prac_2_6.dir/all
 all: CMakeFiles/prac_2_5.dir/all
+all: CMakeFiles/prac_1_1.dir/all
 all: CMakeFiles/prac_2_3.dir/all
 all: CMakeFiles/prac_2_2.dir/all
 all: CMakeFiles/prac_2_1.dir/all
-all: CMakeFiles/prac_2_4.dir/all
-all: CMakeFiles/prac_1_1.dir/all
 
 .PHONY : all
 
@@ -71,17 +74,47 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/prac_3_3.dir/clean
 clean: CMakeFiles/prac_2_8.dir/clean
+clean: CMakeFiles/prac_3_1.dir/clean
 clean: CMakeFiles/prac_2_7.dir/clean
+clean: CMakeFiles/prac_2_4.dir/clean
+clean: CMakeFiles/prac_3_2.dir/clean
 clean: CMakeFiles/prac_2_6.dir/clean
 clean: CMakeFiles/prac_2_5.dir/clean
+clean: CMakeFiles/prac_1_1.dir/clean
 clean: CMakeFiles/prac_2_3.dir/clean
 clean: CMakeFiles/prac_2_2.dir/clean
 clean: CMakeFiles/prac_2_1.dir/clean
-clean: CMakeFiles/prac_2_4.dir/clean
-clean: CMakeFiles/prac_1_1.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac_3_3.dir
+
+# All Build rule for target.
+CMakeFiles/prac_3_3.dir/all:
+	$(MAKE) -f CMakeFiles/prac_3_3.dir/build.make CMakeFiles/prac_3_3.dir/depend
+	$(MAKE) -f CMakeFiles/prac_3_3.dir/build.make CMakeFiles/prac_3_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target prac_3_3"
+.PHONY : CMakeFiles/prac_3_3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac_3_3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac_3_3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/prac_3_3.dir/rule
+
+# Convenience name for target.
+prac_3_3: CMakeFiles/prac_3_3.dir/rule
+
+.PHONY : prac_3_3
+
+# clean rule for target.
+CMakeFiles/prac_3_3.dir/clean:
+	$(MAKE) -f CMakeFiles/prac_3_3.dir/build.make CMakeFiles/prac_3_3.dir/clean
+.PHONY : CMakeFiles/prac_3_3.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/prac_2_8.dir
@@ -111,6 +144,33 @@ CMakeFiles/prac_2_8.dir/clean:
 .PHONY : CMakeFiles/prac_2_8.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/prac_3_1.dir
+
+# All Build rule for target.
+CMakeFiles/prac_3_1.dir/all:
+	$(MAKE) -f CMakeFiles/prac_3_1.dir/build.make CMakeFiles/prac_3_1.dir/depend
+	$(MAKE) -f CMakeFiles/prac_3_1.dir/build.make CMakeFiles/prac_3_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target prac_3_1"
+.PHONY : CMakeFiles/prac_3_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac_3_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac_3_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/prac_3_1.dir/rule
+
+# Convenience name for target.
+prac_3_1: CMakeFiles/prac_3_1.dir/rule
+
+.PHONY : prac_3_1
+
+# clean rule for target.
+CMakeFiles/prac_3_1.dir/clean:
+	$(MAKE) -f CMakeFiles/prac_3_1.dir/build.make CMakeFiles/prac_3_1.dir/clean
+.PHONY : CMakeFiles/prac_3_1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/prac_2_7.dir
 
 # All Build rule for target.
@@ -136,6 +196,60 @@ prac_2_7: CMakeFiles/prac_2_7.dir/rule
 CMakeFiles/prac_2_7.dir/clean:
 	$(MAKE) -f CMakeFiles/prac_2_7.dir/build.make CMakeFiles/prac_2_7.dir/clean
 .PHONY : CMakeFiles/prac_2_7.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac_2_4.dir
+
+# All Build rule for target.
+CMakeFiles/prac_2_4.dir/all:
+	$(MAKE) -f CMakeFiles/prac_2_4.dir/build.make CMakeFiles/prac_2_4.dir/depend
+	$(MAKE) -f CMakeFiles/prac_2_4.dir/build.make CMakeFiles/prac_2_4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target prac_2_4"
+.PHONY : CMakeFiles/prac_2_4.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac_2_4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac_2_4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/prac_2_4.dir/rule
+
+# Convenience name for target.
+prac_2_4: CMakeFiles/prac_2_4.dir/rule
+
+.PHONY : prac_2_4
+
+# clean rule for target.
+CMakeFiles/prac_2_4.dir/clean:
+	$(MAKE) -f CMakeFiles/prac_2_4.dir/build.make CMakeFiles/prac_2_4.dir/clean
+.PHONY : CMakeFiles/prac_2_4.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac_3_2.dir
+
+# All Build rule for target.
+CMakeFiles/prac_3_2.dir/all:
+	$(MAKE) -f CMakeFiles/prac_3_2.dir/build.make CMakeFiles/prac_3_2.dir/depend
+	$(MAKE) -f CMakeFiles/prac_3_2.dir/build.make CMakeFiles/prac_3_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target prac_3_2"
+.PHONY : CMakeFiles/prac_3_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac_3_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac_3_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/prac_3_2.dir/rule
+
+# Convenience name for target.
+prac_3_2: CMakeFiles/prac_3_2.dir/rule
+
+.PHONY : prac_3_2
+
+# clean rule for target.
+CMakeFiles/prac_3_2.dir/clean:
+	$(MAKE) -f CMakeFiles/prac_3_2.dir/build.make CMakeFiles/prac_3_2.dir/clean
+.PHONY : CMakeFiles/prac_3_2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/prac_2_6.dir
@@ -190,6 +304,33 @@ prac_2_5: CMakeFiles/prac_2_5.dir/rule
 CMakeFiles/prac_2_5.dir/clean:
 	$(MAKE) -f CMakeFiles/prac_2_5.dir/build.make CMakeFiles/prac_2_5.dir/clean
 .PHONY : CMakeFiles/prac_2_5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/prac_1_1.dir
+
+# All Build rule for target.
+CMakeFiles/prac_1_1.dir/all:
+	$(MAKE) -f CMakeFiles/prac_1_1.dir/build.make CMakeFiles/prac_1_1.dir/depend
+	$(MAKE) -f CMakeFiles/prac_1_1.dir/build.make CMakeFiles/prac_1_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target prac_1_1"
+.PHONY : CMakeFiles/prac_1_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/prac_1_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac_1_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/prac_1_1.dir/rule
+
+# Convenience name for target.
+prac_1_1: CMakeFiles/prac_1_1.dir/rule
+
+.PHONY : prac_1_1
+
+# clean rule for target.
+CMakeFiles/prac_1_1.dir/clean:
+	$(MAKE) -f CMakeFiles/prac_1_1.dir/build.make CMakeFiles/prac_1_1.dir/clean
+.PHONY : CMakeFiles/prac_1_1.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/prac_2_3.dir
@@ -271,60 +412,6 @@ prac_2_1: CMakeFiles/prac_2_1.dir/rule
 CMakeFiles/prac_2_1.dir/clean:
 	$(MAKE) -f CMakeFiles/prac_2_1.dir/build.make CMakeFiles/prac_2_1.dir/clean
 .PHONY : CMakeFiles/prac_2_1.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac_2_4.dir
-
-# All Build rule for target.
-CMakeFiles/prac_2_4.dir/all:
-	$(MAKE) -f CMakeFiles/prac_2_4.dir/build.make CMakeFiles/prac_2_4.dir/depend
-	$(MAKE) -f CMakeFiles/prac_2_4.dir/build.make CMakeFiles/prac_2_4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target prac_2_4"
-.PHONY : CMakeFiles/prac_2_4.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac_2_4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac_2_4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/prac_2_4.dir/rule
-
-# Convenience name for target.
-prac_2_4: CMakeFiles/prac_2_4.dir/rule
-
-.PHONY : prac_2_4
-
-# clean rule for target.
-CMakeFiles/prac_2_4.dir/clean:
-	$(MAKE) -f CMakeFiles/prac_2_4.dir/build.make CMakeFiles/prac_2_4.dir/clean
-.PHONY : CMakeFiles/prac_2_4.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/prac_1_1.dir
-
-# All Build rule for target.
-CMakeFiles/prac_1_1.dir/all:
-	$(MAKE) -f CMakeFiles/prac_1_1.dir/build.make CMakeFiles/prac_1_1.dir/depend
-	$(MAKE) -f CMakeFiles/prac_1_1.dir/build.make CMakeFiles/prac_1_1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target prac_1_1"
-.PHONY : CMakeFiles/prac_1_1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/prac_1_1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/prac_1_1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/prac_1_1.dir/rule
-
-# Convenience name for target.
-prac_1_1: CMakeFiles/prac_1_1.dir/rule
-
-.PHONY : prac_1_1
-
-# clean rule for target.
-CMakeFiles/prac_1_1.dir/clean:
-	$(MAKE) -f CMakeFiles/prac_1_1.dir/build.make CMakeFiles/prac_1_1.dir/clean
-.PHONY : CMakeFiles/prac_1_1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

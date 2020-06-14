@@ -27,6 +27,58 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac_3_3">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_3_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_3_3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac_3_3/fast">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_3_3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_3_3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="prac_2_8">
 				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_2_8" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
@@ -69,6 +121,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="prac_3_1">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_3_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_3_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac_3_1/fast">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_3_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_3_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="prac_2_7">
 				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_2_7" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
@@ -106,6 +200,90 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_2_7/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac_2_4">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_2_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_2_4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac_2_4/fast">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_2_4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_2_4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac_3_2">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_3_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_3_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac_3_2/fast">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_3_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_3_2/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -195,6 +373,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="prac_1_1">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_1_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="prac_1_1/fast">
+				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_1_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_1_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="prac_2_3">
 				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_2_3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
@@ -279,16 +499,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="prac_2_1">
 				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_2_1" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
@@ -331,90 +541,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="prac_2_4">
-				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_2_4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_2_4"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac_2_4/fast">
-				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_2_4" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_2_4/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac_1_1">
-				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_1_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_1_1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="prac_1_1/fast">
-				<Option output="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/prac_1_1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 prac_1_1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/oliver_sun/Cpp-Concurrency-in-Action/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 		</Build>
 		<Unit filename="/Users/oliver_sun/Cpp-Concurrency-in-Action/prac_1_1.cpp">
 			<Option target="prac_1_1"/>
@@ -442,6 +568,15 @@
 		</Unit>
 		<Unit filename="/Users/oliver_sun/Cpp-Concurrency-in-Action/prac_2_8.cpp">
 			<Option target="prac_2_8"/>
+		</Unit>
+		<Unit filename="/Users/oliver_sun/Cpp-Concurrency-in-Action/prac_3_1.cpp">
+			<Option target="prac_3_1"/>
+		</Unit>
+		<Unit filename="/Users/oliver_sun/Cpp-Concurrency-in-Action/prac_3_2.cpp">
+			<Option target="prac_3_2"/>
+		</Unit>
+		<Unit filename="/Users/oliver_sun/Cpp-Concurrency-in-Action/prac_3_3.cpp">
+			<Option target="prac_3_3"/>
 		</Unit>
 		<Unit filename="/Users/oliver_sun/Cpp-Concurrency-in-Action/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
