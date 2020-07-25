@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named prac_3_5
+
+# Build rule for target.
+prac_3_5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac_3_5
+.PHONY : prac_3_5
+
+# fast build rule for target.
+prac_3_5/fast:
+	$(MAKE) -f CMakeFiles/prac_3_5.dir/build.make CMakeFiles/prac_3_5.dir/build
+.PHONY : prac_3_5/fast
+
+#=============================================================================
 # Target rules for targets named prac_3_3
 
 # Build rule for target.
@@ -135,6 +148,19 @@ prac_2_8: cmake_check_build_system
 prac_2_8/fast:
 	$(MAKE) -f CMakeFiles/prac_2_8.dir/build.make CMakeFiles/prac_2_8.dir/build
 .PHONY : prac_2_8/fast
+
+#=============================================================================
+# Target rules for targets named prac_3_6
+
+# Build rule for target.
+prac_3_6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac_3_6
+.PHONY : prac_3_6
+
+# fast build rule for target.
+prac_3_6/fast:
+	$(MAKE) -f CMakeFiles/prac_3_6.dir/build.make CMakeFiles/prac_3_6.dir/build
+.PHONY : prac_3_6/fast
 
 #=============================================================================
 # Target rules for targets named prac_3_1
@@ -187,6 +213,19 @@ prac_3_2: cmake_check_build_system
 prac_3_2/fast:
 	$(MAKE) -f CMakeFiles/prac_3_2.dir/build.make CMakeFiles/prac_3_2.dir/build
 .PHONY : prac_3_2/fast
+
+#=============================================================================
+# Target rules for targets named prac_3_4
+
+# Build rule for target.
+prac_3_4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 prac_3_4
+.PHONY : prac_3_4
+
+# fast build rule for target.
+prac_3_4/fast:
+	$(MAKE) -f CMakeFiles/prac_3_4.dir/build.make CMakeFiles/prac_3_4.dir/build
+.PHONY : prac_3_4/fast
 
 #=============================================================================
 # Target rules for targets named prac_2_6
@@ -590,6 +629,87 @@ prac_3_3.cpp.s:
 	$(MAKE) -f CMakeFiles/prac_3_3.dir/build.make CMakeFiles/prac_3_3.dir/prac_3_3.cpp.s
 .PHONY : prac_3_3.cpp.s
 
+prac_3_4.o: prac_3_4.cpp.o
+
+.PHONY : prac_3_4.o
+
+# target to build an object file
+prac_3_4.cpp.o:
+	$(MAKE) -f CMakeFiles/prac_3_4.dir/build.make CMakeFiles/prac_3_4.dir/prac_3_4.cpp.o
+.PHONY : prac_3_4.cpp.o
+
+prac_3_4.i: prac_3_4.cpp.i
+
+.PHONY : prac_3_4.i
+
+# target to preprocess a source file
+prac_3_4.cpp.i:
+	$(MAKE) -f CMakeFiles/prac_3_4.dir/build.make CMakeFiles/prac_3_4.dir/prac_3_4.cpp.i
+.PHONY : prac_3_4.cpp.i
+
+prac_3_4.s: prac_3_4.cpp.s
+
+.PHONY : prac_3_4.s
+
+# target to generate assembly for a file
+prac_3_4.cpp.s:
+	$(MAKE) -f CMakeFiles/prac_3_4.dir/build.make CMakeFiles/prac_3_4.dir/prac_3_4.cpp.s
+.PHONY : prac_3_4.cpp.s
+
+prac_3_5.o: prac_3_5.cpp.o
+
+.PHONY : prac_3_5.o
+
+# target to build an object file
+prac_3_5.cpp.o:
+	$(MAKE) -f CMakeFiles/prac_3_5.dir/build.make CMakeFiles/prac_3_5.dir/prac_3_5.cpp.o
+.PHONY : prac_3_5.cpp.o
+
+prac_3_5.i: prac_3_5.cpp.i
+
+.PHONY : prac_3_5.i
+
+# target to preprocess a source file
+prac_3_5.cpp.i:
+	$(MAKE) -f CMakeFiles/prac_3_5.dir/build.make CMakeFiles/prac_3_5.dir/prac_3_5.cpp.i
+.PHONY : prac_3_5.cpp.i
+
+prac_3_5.s: prac_3_5.cpp.s
+
+.PHONY : prac_3_5.s
+
+# target to generate assembly for a file
+prac_3_5.cpp.s:
+	$(MAKE) -f CMakeFiles/prac_3_5.dir/build.make CMakeFiles/prac_3_5.dir/prac_3_5.cpp.s
+.PHONY : prac_3_5.cpp.s
+
+prac_3_6.o: prac_3_6.cpp.o
+
+.PHONY : prac_3_6.o
+
+# target to build an object file
+prac_3_6.cpp.o:
+	$(MAKE) -f CMakeFiles/prac_3_6.dir/build.make CMakeFiles/prac_3_6.dir/prac_3_6.cpp.o
+.PHONY : prac_3_6.cpp.o
+
+prac_3_6.i: prac_3_6.cpp.i
+
+.PHONY : prac_3_6.i
+
+# target to preprocess a source file
+prac_3_6.cpp.i:
+	$(MAKE) -f CMakeFiles/prac_3_6.dir/build.make CMakeFiles/prac_3_6.dir/prac_3_6.cpp.i
+.PHONY : prac_3_6.cpp.i
+
+prac_3_6.s: prac_3_6.cpp.s
+
+.PHONY : prac_3_6.s
+
+# target to generate assembly for a file
+prac_3_6.cpp.s:
+	$(MAKE) -f CMakeFiles/prac_3_6.dir/build.make CMakeFiles/prac_3_6.dir/prac_3_6.cpp.s
+.PHONY : prac_3_6.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -598,12 +718,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... prac_3_5"
 	@echo "... prac_3_3"
 	@echo "... prac_2_8"
+	@echo "... prac_3_6"
 	@echo "... prac_3_1"
 	@echo "... prac_2_7"
 	@echo "... prac_2_4"
 	@echo "... prac_3_2"
+	@echo "... prac_3_4"
 	@echo "... prac_2_6"
 	@echo "... prac_2_5"
 	@echo "... prac_1_1"
@@ -646,6 +769,15 @@ help:
 	@echo "... prac_3_3.o"
 	@echo "... prac_3_3.i"
 	@echo "... prac_3_3.s"
+	@echo "... prac_3_4.o"
+	@echo "... prac_3_4.i"
+	@echo "... prac_3_4.s"
+	@echo "... prac_3_5.o"
+	@echo "... prac_3_5.i"
+	@echo "... prac_3_5.s"
+	@echo "... prac_3_6.o"
+	@echo "... prac_3_6.i"
+	@echo "... prac_3_6.s"
 .PHONY : help
 
 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/oliver_sun/Cpp-Concurrency-in-Action/prac_3_5.cpp
+exception
+-
+memory
+-
+mutex
+-
+stack
+-
+
